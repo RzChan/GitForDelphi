@@ -1,0 +1,7 @@
+# 針對 Delphi7 pas 檔含有中文字的解決方案
+*.pas text working-tree-encoding=big5
+
+# 針對 ExceedXE 設定
+Modify_Log text  working-tree-encoding=big5
+English.ini text working-tree-encoding=big5
+Tchinese.ini text working-tree-encoding=big5

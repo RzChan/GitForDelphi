@@ -1,0 +1,42 @@
+## 排除版本控制的檔案
+## 針對 Delphi XE Project 進行設定
+
+# 排除已建置檔案
+Binary/
+*.exe
+
+# delphi 內建版控
+__history/
+
+# 排除暫存檔案
+*.~pas
+*.~dfm
+*.~ddp
+*.~dpr
+
+# 排除log檔案
+*.log
+
+# 排除備份檔案
+*.b
+
+# 排除 compiler 自動產生檔案
+*.dcu
+*.ddp
+*.drc
+*.dsk
+*.dsm
+*.map
+*.identcache
+*.local
+
+## 針對 ExceedXE 設定
+# 排除 HCT 匯出資料
+HCT/
+# 排除 TMP 資料夾
+Tmp/
+
+# 其他
+按月彙報匯出資料/
+說明文件/
+ExceedXE.Old
